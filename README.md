@@ -4,6 +4,8 @@
 
 You can fit Q2_K_XL on 16GB VRAM with q4_0 kv cache. Generation speed is ~45 tok / s.
 
+MoE models like 35B-A3B require smaller kv cache and runs faster at ~130 tok / s.
+
 3. Run [llamacpp](https://github.com/ggml-org/llama.cpp/releases) on Windows host
 
 ```bash
